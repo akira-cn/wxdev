@@ -12,7 +12,7 @@
      MsgId: [ '6265059930266694232' ] } }
 */
 
-var PORT = 9529;
+var PORT = require('./lib/config').wxPort;
 var http = require('http');
 var qs = require('qs');
 

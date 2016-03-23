@@ -4,7 +4,7 @@
   实现简单“微信墙”的效果
 */
 
-var PORT = 9529;
+var PORT = require('./lib/config').wxPort;
 var http = require('http');
 var qs = require('qs');
 var TOKEN = 'yuntu';

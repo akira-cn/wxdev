@@ -8,7 +8,7 @@
   http://mp.weixin.qq.com/wiki/8/f9a0b8382e0b77d87b3bcc1ce6fbc104.html
  */
 
-var PORT = 9529;
+var PORT = require('./lib/config').wxPort;
 var http = require('http');
 var qs = require('qs');
 
