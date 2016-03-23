@@ -4,7 +4,7 @@
   但是这样的话意味着第三方也可以很容易伪造请求假装成微信发送给开发者服务器
  */
 
-var PORT = 9529;
+var PORT = require('./config').wxPort;
 var http = require('http');
 var qs = require('qs');
 

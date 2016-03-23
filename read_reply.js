@@ -2,7 +2,7 @@
   这个例子演示从微信服务接收到消息并回复一段文字
 */
 
-var PORT = 9529;
+var PORT = require('./config').wxPort;
 var http = require('http');
 var qs = require('qs');
 

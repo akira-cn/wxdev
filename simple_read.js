@@ -12,7 +12,7 @@
   </xml>
 */
 
-var PORT = 9529;
+var PORT = require('./config').wxPort;
 var http = require('http');
 var qs = require('qs');
 
