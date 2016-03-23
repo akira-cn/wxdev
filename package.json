@@ -1,0 +1,16 @@
+{
+  "name": "weixin-dev",
+  "description": "weixin development",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js",
+    "validate": "node validate.js"
+  },
+  "dependencies": {
+    "qs": "*",
+    "tmpl": "*",
+    "xml2js": "*",
+    "ws": "*",
+    "request": "*"
+  }
+}
