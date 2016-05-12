@@ -366,7 +366,7 @@ module.exports = {getToken: getToken};
 
 获取到有效的 access_token，就可以进一步获取用户基本信息了：
 
-```
+```js
 // in lib/user.js
 
 /**
@@ -411,7 +411,7 @@ module.exports = {
 
 所以我们将用户基本信息获取出来，附加到 WebSocket 推送的消息中：
 
-```
+```js
 // in weixin_ws2.js
 
 	parseString(postdata, function (err, result) {
@@ -435,7 +435,7 @@ module.exports = {
 
 以下是完整程序：
 
-```
+```js
 /**
   上一个例子的微信墙没有获得用户头像、名字等信息
   这些信息要通过另一类微信API，也就是由服务器主动调用微信获得
